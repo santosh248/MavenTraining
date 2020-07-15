@@ -16,4 +16,9 @@ public class MyCalculator {
 	public int multiplyNumbers(int x, int y){
 		return x * y;
 	}
+	//Method to two divide Numbers
+	public int divideNumbers(int x, int y){
+		return x / y;
+	}
+	
 }
