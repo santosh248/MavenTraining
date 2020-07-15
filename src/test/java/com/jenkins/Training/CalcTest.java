@@ -21,5 +21,10 @@ public class CalcTest {
 		MyCalculator myCalc=new MyCalculator();
 		assertEquals(30, myCalc.multiplyNumbers(15,2));
 	}
+	@Test
+	public void divideTest() {
+		MyCalculator myCalc=new MyCalculator();
+		assertEquals(3, myCalc.divideNumbers(15,5));
+	}
 
 }
